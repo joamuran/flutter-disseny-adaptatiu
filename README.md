@@ -43,7 +43,7 @@ I els desavantatges:
 * Cal tenir en compte que obté informació global (grandària total de la pantalla, orientació...), però no ens permet adaptar un layout a l'espai disponible dins d'altre contenidor.
 * Sovint utilitzem valors (sobretot per al padding) introduits de forma manual (8, 16...) que poden servir per a uns dispositiuis però no per a altres.
 
-> [!Note]  "Documentació"
+> [!Tip] 
 > 
 > **Documentació**
 > 
@@ -59,7 +59,7 @@ Aquest és un mecanisme útil per detectar quan la UI canvia explícitament entr
 El principal avantatge que presenta és la seua senzillesa, ja que ens ofereix l'orientació i es reconstrueix quan aquesta canvia. Ara bé, només serveix per detecatar l'orientació, però no els canvis en les dimensions.
 
 
-> [!Note]
+> [!Tip]
 > 
 > **Documentació**
 > 
@@ -75,7 +75,7 @@ Els principals avantatges d'aquest widget són que:
 * Segueix la filosofia de [constraints go down](https://docs.flutter.dev/ui/layout/constraints), és a dir, els widgets pares proporcionen les restriccions als widgets fills.
 * S’adapta bé a vises dividides (*split views*), escriptori, web o tauletes (i evidentment a mòbils).
 
-> ![Note] 
+> [!Note]
 > 
 > **Consideracions de rendiment / desavantatges**
 >
@@ -88,7 +88,7 @@ Els principals avantatges d'aquest widget són que:
 > * La recomanació general és revisar si el builder s’ha de tornar a executar-se quan canvien les dades, i si és així, fer-ho explícitament.
 
 
-> ![Info]
+> [!Tip]
 > 
 > **Documentació**
 > 
