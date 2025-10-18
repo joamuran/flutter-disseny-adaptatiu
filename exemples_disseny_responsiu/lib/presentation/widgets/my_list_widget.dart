@@ -1,0 +1,27 @@
+import 'package:flutter/material.dart';
+
+class MyListWidget extends StatelessWidget {
+  const MyListWidget({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    // Llista d’exemple amb separadors
+    return Card(
+      clipBehavior: Clip.antiAlias,
+      elevation: 1,
+      child: ListView.separated(
+        padding: const EdgeInsets.all(8),
+        itemCount: 20,
+        separatorBuilder: (_, __) => const Divider(height: 1),
+        itemBuilder: (context, index) {
+          return ListTile(
+            leading: const Icon(Icons.label_outline),
+            title: Text('Element #$index'),
+            subtitle: const Text('Subtítol d’exemple'),
+            onTap: () {},
+          );
+        },
+      ),
+    );
+  }
+}
