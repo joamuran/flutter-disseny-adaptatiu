@@ -43,7 +43,7 @@ I els desavantatges:
 * Cal tenir en compte que obté informació global (grandària total de la pantalla, orientació...), però no ens permet adaptar un layout a l'espai disponible dins d'altre contenidor.
 * Sovint utilitzem valors (sobretot per al padding) introduits de forma manual (8, 16...) que poden servir per a uns dispositiuis però no per a altres.
 
-> [!Info] 
+> [!Note]  "Documentació"
 > 
 > **Documentació**
 > 
@@ -59,7 +59,7 @@ Aquest és un mecanisme útil per detectar quan la UI canvia explícitament entr
 El principal avantatge que presenta és la seua senzillesa, ja que ens ofereix l'orientació i es reconstrueix quan aquesta canvia. Ara bé, només serveix per detecatar l'orientació, però no els canvis en les dimensions.
 
 
-> [!Info] "Doc"
+> [!Note]
 > 
 > **Documentació**
 > 
